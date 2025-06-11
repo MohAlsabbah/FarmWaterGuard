@@ -1,0 +1,184 @@
+body {
+    background-image: url('./img/app_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+/* start index style */ 
+
+.welcome-pos{
+    margin-top: 70px;
+}
+
+.to-pos{
+    margin-top: -10px;
+}
+
+.appName{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#everywhere {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+/* end index style */ 
+
+/* start location style */
+.location-message{
+    margin-top: 70px;
+    font-size: 30px;
+}
+.location-instruction{
+    margin-top: 200px;
+    font-size: 30px;
+}
+.location-input{
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.location-input:focus {
+    border: none;
+    outline: none;
+}
+.submit-button{
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #6b6666;
+    padding: 9px 30px;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* end location style */ 
+
+/* start main style */ 
+.top-section {
+    margin: 0;
+    position: relative;
+    height: 50vh;
+  }
+  
+.goto-btns {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    padding:  10px 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    color: #fff;
+  }
+
+.map-button{
+    background-color: #6b6666;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+  .location-button{
+    background-color: #6b6666;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+  }
+  
+  .notification-toggle {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    text-align: right;
+    display: inline-block;
+    font-size: 25px;
+  }
+  
+  .notification-toggle img {
+    display: block;
+    width: 150px;
+    vertical-align: middle;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .temperature {
+    font-size: 35px;
+    margin: 5px 0;
+  }
+  
+  .weather-text {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .bottom-section {
+    height: 50vh;
+  }
+  
+  .bottom-img {
+    width: 99%;
+    height: 99%;
+  }
+/* end main style */ 
+
+/* start map style */ 
+.map-container {
+    background-image: url('./img/map.png');
+    background-size: cover;
+    background-position: center;
+    width: calc(100vw - 40px); /* little space on left and right */
+    height: calc(100vh - 100px); /* leave space at top and bottom */
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+  }
+/* end map style */ 
